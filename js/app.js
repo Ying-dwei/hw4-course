@@ -49,16 +49,12 @@ window.fbAsyncInit = function() {
       // https://developers.facebook.com/docs/graph-api/reference/v2.2/user
       //教你怎麼拿
 
-     
-
-
-
-
-
-
-
       e.preventDefault();
     });
+
+
+
+
 
     $('#moreBtn').click(function(e){
       $.getJSON( $(this).data('next'), function(response){
