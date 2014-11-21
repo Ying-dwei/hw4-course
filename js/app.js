@@ -31,7 +31,7 @@ window.fbAsyncInit = function() {
               // ---------------
               // 讀取 like 的列表，並儲存到 likes, 以及下一組資料的連結到 next
               var likes = response.likes.data;
-              var next = response.likes.data.paging.next;
+              var next = response.likes.paging.next;
               //把抓下來的data存起來
               //把讀到的資料放進html
               loadPagesInfo(likes);
